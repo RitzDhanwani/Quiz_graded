@@ -15,34 +15,38 @@
         }
 
         .left-side {
-            background-image: url('https://e7.pngegg.com/pngimages/839/459/png-transparent-abstract-blue-background.png'); /* Replace 'your-image.jpg' with your image URL */
+            background-image: url("assets/background.png"); /* Replace 'your-image.jpg' with your image URL */
             background-size: cover;
             background-position: center;
             height: 100%;
             width: 50%;
             display: flex;
             flex-direction: column;
-            justify-content: center; /* Center content vertically */
-            align-items: center; /* Center content horizontally */
-            
+            justify-content: center;
+            align-items: center;
         }
 
         .right-side {
             background-color: #ffffff;
             padding: 20px;
             width: 50%;
+            background-image: url("assets/Capture-removebg-preview.png");
+            background-size: cover;
         }
 
         .social-icons {
             text-align: center;
         }
 
-        /* Style for "PiSocial" at the top of the left side */
+        /* Style for "PiSocial" at the upper left of the left side */
         .pisocial {
             font-size: 24px;
             font-weight: bold;
             color: white;
-            margin-bottom: 20px;
+            margin-top: 20px;
+            margin-left: 20px;
+
+
         }
 
         /* Style for terms of service message */
@@ -58,12 +62,12 @@
     <div class="container login-container">
         <div class="left-side">
             <!-- PiSocial Logo -->
-            <div class="pisocial"><i>PiSocial</i></div>
+            <div class="pisocial" style="position: absolute; top: 10px; left: 20px;"><i>PiSocial</i></div>
 
             <!-- Social Media Signup Options -->
             <div class="social-icons">
                 <a href="https://www.linkedin.com/in/riteeka-rani-ba2079231/" class="btn btn-primary mb-2">
-                    <i class="fab fa-linkedin"  style="background-color: #f4f4f4;"></i> Sign Up with LinkedIn
+                    <i class="fab fa-linkedin" style="background-color: #f4f4f4;"></i> Sign Up with LinkedIn
                 </a>
                 <br>
                 <a href="https://twitter.com/home" class="btn btn-info mb-2">
